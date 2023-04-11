@@ -1,1 +1,3 @@
+
 spring.cloud.config.server.git.default-label= main
+eureka.client.serviceUrl.defaultZone=${EUREKA_URI:http://localhost:8091/eureka}
